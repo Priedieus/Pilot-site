@@ -64,9 +64,9 @@ margin: 20px 50px;
 .cont3-3 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 20px 50px;
-    gap: 15px 15px;
+    gap: 25px 25px;
 }
 
 .img2 {
@@ -118,6 +118,11 @@ button {
 
 h3 {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
 }
 
 .quote {
@@ -126,7 +131,35 @@ h3 {
     color: #1f2937;
 }
 
+.quoter {
+align-self: flex-end;
+font-weight: 900;
+font-style: italic;
+font-size: 16px;
+color: black;
+}
+
+h4 {
+    margin: 20px 50px;
+}
+
+.cont4 {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 20px 50px;
+    justify-content: space-between;
+    border-radius: 25px;
+    
+}
+
+
 footer {
     background-color: #1f2937;
     color: #f9faf8;
+    text-align: center;
+}
+
+a {
+    color: orangered;
 }
